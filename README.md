@@ -1,6 +1,5 @@
 # OneGunProject
 
-# Solana Russian Roulette
 ![logo_one_gun](https://github.com/user-attachments/assets/16e97904-4ef3-4936-b0d6-0e2d4e711fb6)
 
 An on-chain, Telegram-powered Russian Roulette game built on Solana. Players holding the \$GUN token can generate a game wallet, form 4-player lobbies, and battle it out for wins recorded on Supabase. A static Bootstrap front-end displays live leaderboards and battle logs.
@@ -113,4 +112,4 @@ Pull requests welcome! Please follow standard GitHub flow:
 
 ---
 
-© 2025 Solana Russian Roulette. All rights reserved.
+© 2025 One Gun Project. All rights reserved.

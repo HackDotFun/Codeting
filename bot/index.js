@@ -57,7 +57,7 @@ const userWallets = new Map();       // telegramId -> holder wallet_address
 
 // /start command
 bot.start(ctx => ctx.reply(
-  'Welcome to Solana Russian Roulette! 🎲',
+  'Welcome to One Gun Roulette! 🎲',
   Markup.inlineKeyboard([
     Markup.button.callback('🔑 Generate Wallet', 'generate'),
     Markup.button.callback('▶️ Play Game', 'play_game'),

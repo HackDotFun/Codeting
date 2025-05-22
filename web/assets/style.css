@@ -1,0 +1,95 @@
+
+/* assets/style.css */
+:root {
+  --primary-color: #1DA1F2;
+  --secondary-color: #14171A;
+  --accent-color: #FFD700;
+  --bg-dark: #0d1117;
+  --text-light: #f5f8fa;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.logo {
+  max-width: 75%;
+}
+
+.footer-banner {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-accent {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-family: 'DynaPuff', cursive;
+  font-size: 4rem;
+  color: var(--accent-color);
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#hero {
+  background: linear-gradient(135deg, #14171A, #0d1117);
+}
+
+#tech-banner {
+  /* banner background if needed */
+}
+
+#tech-info {
+  background: linear-gradient(135deg, #1DA1F2, #14171A);
+}
+
+#stats {
+  background: linear-gradient(135deg, #14171A, #1c1f29);
+}
+
+footer {
+  background-color: #000;
+  padding: 2rem 0;
+}
+
+.leaderboard, .battle-log {
+  background: #1e2228;
+  border-radius: .5rem;
+  padding: 1rem;
+  box-shadow: 0 0 .5rem rgba(0,0,0,.5);
+  max-height: 70vh;
+  overflow-y: auto;
+}

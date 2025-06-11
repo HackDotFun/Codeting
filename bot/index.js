@@ -26,7 +26,7 @@ const connection = new Connection(process.env.SOLANA_RPC_URL, 'confirmed');
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Constants and in-memory state
-const REQUIRED_MINT = new PublicKey('9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump');
+const REQUIRED_MINT = new PublicKey('4fALGYxjzcnXkaP2WzdDkMfmkygVGQ9kQSWK1UhVnBLV');
 const pendingGenerate = new Set();   // awaiting wallet generation
 const gameWallets = new Map();       // telegramId -> { publicKey, privateKey }
 const userIds = new Map();           // telegramId -> DB user.id

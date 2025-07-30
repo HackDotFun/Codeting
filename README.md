@@ -1,115 +1,41 @@
-# OneGunProject
+# Hack.Fun 🚀
+![tiMLmtan_400x400](https://github.com/user-attachments/assets/943351ef-5e83-45b2-8c6c-9c9f6752761f)
 
-![logo_one_gun](https://github.com/user-attachments/assets/16e97904-4ef3-4936-b0d6-0e2d4e711fb6)
-
-An on-chain, Telegram-powered Russian Roulette game built on Solana. Players holding the \$GUN token can generate a game wallet, form 4-player lobbies, and battle it out for wins recorded on Supabase. A static Bootstrap front-end displays live leaderboards and battle logs.
-
----
-
-## 📦 Tech Stack
-
-* **Node.js & Telegraf** — Bot framework for Telegram integration
-* **@solana/web3.js** — In-chat wallet management on Solana
-* **Supabase** — PostgreSQL database + REST API for sessions, users, games, leaderboards
-* **Bootstrap 5** — Responsive front-end layout
-* **Intersection Observer** — Smooth section reveal animations
-* **Font Awesome & Google Fonts** — Icons & typography
+**HackFunCoin / Hack.Fun** is a digital platform that visually documents major crypto exploits. It was recently launched on the **Solana blockchain** by a group allegedly linked to previous hacks, including the $80M Orbit exploit ([source](https://cointelegraph.com/press-releases/hacker-group-launches-token-on-solana-via-hack-fun-platform?utm_source=chatgpt.com)).
 
 ---
 
-## 🚀 Features
+## 🔗 Official Links
 
-* **Wallet Generation**: `/generate` creates a Solana keypair after verifying \$GUN holdings
-* **4-Player Lobbies**: Invite friends, auto‑count players, start game with a 3 s countdown
-* **Russian Roulette Logic**: Simulated spin with random elimination
-* **Persistent Stats**: Sessions, games, wins stored in Supabase; leaderboard and battle log
-* **Static Web Dashboard**: Live updates: top players & recent rounds, paginated by 10 records
+- **X (Twitter)**: [@HackFunCoin](https://x.com/HackFunCoin)
+- **Website**: [hack.fun](https://hack.fun)
+- **Telegram**: [t.me/hackfun](https://t.me/hackfun) *(as mentioned in Cointelegraph press release)*
 
 ---
 
-## 🛠️ Setup & Local Development
+## 📅 Timeline
 
-1. **Clone the repo**
-
-   ```bash
-   git clone https://github.com/tu-usuario/onegup.git
-   cd onegup
-   ```
-
-2. **Environment Variables**
-   Create a `.env` in `bot/`:
-
-   ```dotenv
-   NODE_ENV=development
-   TELEGRAM_TOKEN=yourTelegramBotToken
-   SUPABASE_URL=https://your-instance.supabase.co
-   SUPABASE_KEY=yourAnonOrServiceRoleKey
-   SOLANA_RPC_URL=https://api.devnet.solana.com
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   cd bot
-   npm install
-   ```
-
-4. **Run the bot**
-
-   ```bash
-   npm start
-   ```
-
-5. **Serve the front-end**
-
-   ```bash
-   cd ../web
-   npx serve .
-   ```
-
-6. **View**
-
-   * Bot: talk to it on Telegram
-   * Front-end: open `http://localhost:5000` (or the port `serve` shows)
+- **July 29, 2025**: Cointelegraph publishes an article announcing the launch of Hack.Fun, linking it to wallets involved in the Orbit exploit.
+- **Late July 2025**: Viral presence on X, with teaser videos and massive social engagement. The project reached #1 trending in the U.S.
 
 ---
 
-## 🎯 Deployment on Render
+## 🎯 Vision
 
-### Front-end (Static Site)
-
-1. **New → Static Site** → Connect GitHub repo
-2. **Root Directory**: `/web`
-3. **Publish Directory**: `/web`
-4. **Build Command**: *(leave empty)*
-
-### Bot (Background Worker)
-
-1. **New → Background Worker** → Same repo
-2. **Root Directory**: `/bot`
-3. **Build Command**: `npm ci`
-4. **Start Command**: `npm start`
-5. **Environment**: add same vars as in `.env`
-6. **Always On**: Enabled
+Hack.Fun aims to be an **interactive crypto forensics tool** that maps out major exploit stories in a timeline-based visual format. It helps users understand how hacks unfold and which wallets, bridges, or contracts were involved.
 
 ---
 
-## 📖 Usage
+## 🧩 Highlights
 
-* `/start` → Main menu: **Generate Wallet**, **Play Game**, **View Ranking**
-* `/generate` → Verifies \$GUN, then returns your **game** keypair
-* **Play Game** → Joins a 4-player session, waits for all to join, then triggers Russian Roulette
-* **View Ranking** → Shows the top 5 players by wins
-
----
-
-### Contributing
-
-Pull requests welcome! Please follow standard GitHub flow:
-
-1. Fork → Create `feature/*` branch → Commit → PR
-2. Ensure linting/tests pass before merging
+- **Visual graph-based storytelling** of real on-chain hacks.
+- **Launched token on Solana**, part of the project’s ecosystem.
+- **Media attention** via Cointelegraph and viral Twitter presence.
+- Linked to **wallets involved in historic exploits**, which has created a controversial but intriguing origin.
 
 ---
 
-© 2025 One Gun Project. All rights reserved.
+## 📦 (Hypothetical) File Structure
+
+> 🚧 Codebase is not public yet. This structure is an assumption for when/if open-source tools are released.
+

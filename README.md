@@ -9,7 +9,7 @@
 
 - **X (Twitter)**: [@HackFunCoin](https://x.com/HackFunCoin)
 - **Website**: [hack.fun](https://hack.fun)
-- **Telegram**: [t.me/hackfun](https://t.me/hackfun) *(as mentioned in Cointelegraph press release)*
+- **Telegram**: [t.me/hackfun](https://t.me/hackfun)
 
 ---
 
